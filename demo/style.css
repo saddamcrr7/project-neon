@@ -2,14 +2,17 @@ html,body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background: url("https://images.unsplash.com/3/doctype-hi-res.jpg?auto=format&fit=crop&w=1492&q=80")fixed no-repeat;
+    background: url("https://images.pexels.com/photos/273892/pexels-photo-273892.jpeg?w=940&h=650&auto=compress&cs=tinysrgb")fixed no-repeat;
     background-size: cover;
+    background-position: bottom center;
+    background-origin: padding-box;
 }
 button{
     border: none;
+    border-radius: 8px;
     font-size: 18px;
     height: 75px;
     width: 314px;
     margin: 10px;
-    color: rgb(25, 26, 25);
+    color: rgb(255, 255, 255);
 }
