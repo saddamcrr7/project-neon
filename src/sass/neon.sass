@@ -2,149 +2,188 @@
 @import "mixins"
 
 //standard
-.neon-st-st
+.neon-st-st, .neon-st-md, .neon-st-hi, .neon-st-ex-hi, .neon-light-st,.neon-light-md,
+.neon-light-hi, .neon-light-ex-hi, .neon-dark-st, .neon-dark-md, .neon-dark-hi,
+.neon-dark-ex-hi, .neon-success-st, .neon-success-md, .neon-success-hi, .neon-success-ex-hi,
+.neon-danger-st, .neon-danger-md, .neon-danger-hi, .neon-danger-ex-hi, .neon-warning-st,
+.neon-warning-md, .neon-warning-hi, .neon-warning-ex-hi, .neon-info-st, .neon-info-md,
+.neon-info-hi, .neon-info-ex-hi
     +neon()
     &:before
+        +neon-before()
+        // box-shadow: $standard-color
+        // filter: $standard-blur
+.neon-st-st
+    // +neon()
+    &:before
+        // +neon-before()
         box-shadow: $standard-color
         filter: $standard-blur
 .neon-st-md
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $standard-color
         filter: $medium-blur
 .neon-st-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $standard-color
         filter: $high-blur
 .neon-st-ex-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $standard-color
         filter: $ex-high-blur
 //light
 .neon-light-st
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $light-color
         filter: $standard-blur
 .neon-light-md
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $light-color
         filter: $medium-blur
 .neon-light-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $light-color
         filter: $high-blur
 .neon-light-ex-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $light-color
         filter: $ex-high-blur
 //dark
 .neon-dark-st
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $dark-color
         filter: $standard-blur
 .neon-dark-md
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $dark-color
         filter: $medium-blur
 .neon-dark-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $dark-color
         filter: $high-blur
 .neon-dark-ex-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $dark-color
         filter: $ex-high-blur
 //success
 .neon-success-st
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $success-color
         filter: $standard-blur
 .neon-success-md
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $success-color
         filter: $medium-blur
 .neon-success-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $success-color
         filter: $high-blur
 .neon-success-ex-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $success-color
         filter: $ex-high-blur
 //danger
 .neon-danger-st
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $danger-color
         filter: $standard-blur
 .neon-danger-md
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $danger-color
         filter: $medium-blur
 .neon-danger-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $danger-color
         filter: $high-blur
 .neon-danger-ex-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $danger-color
         filter: $ex-high-blur
 //warning
 .neon-warning-st
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $warning-color
         filter: $standard-blur
 .neon-warning-md
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $warning-color
         filter: $medium-blur
 .neon-warning-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $warning-color
         filter: $high-blur
 .neon-warning-ex-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $warning-color
         filter: $ex-high-blur
 //info
 .neon-info-st
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $info-color
         filter: $standard-blur
 .neon-info-md
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $info-color
         filter: $medium-blur
 .neon-info-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $info-color
         filter: $high-blur
 .neon-info-ex-hi
-    +neon()
+    // +neon()
     &:before
+        // +neon-before()
         box-shadow: $info-color
         filter: $ex-high-blur
