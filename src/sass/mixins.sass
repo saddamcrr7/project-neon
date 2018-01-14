@@ -1,11 +1,10 @@
-
-=neon()
+//neon mixins
+=neon
     background: inherit 
     position: relative
     overflow: hidden
     z-index: 1
-    
-=neon-before()
+=neon-before
     content: ""
     position: absolute
     top: -26px
@@ -13,4 +12,30 @@
     right: -25px
     bottom: -25px
     background: inherit
-    z-index: -1    
+    z-index: -1
+//color mixins
+=standard-color
+    box-shadow: $standard-color
+=light-color
+    box-shadow: $light-color
+=dark-color
+    box-shadow: $dark-color
+=success-color
+    box-shadow: $success-color
+=danger-color
+    box-shadow: $danger-color
+=warning-color
+    box-shadow: $warning-color
+=info-color
+    box-shadow: $info-color
+=purple-color
+    box-shadow: $purple-color
+//blur mixins
+=standard-blur
+    filter: $standard-blur
+=medium-blur
+    filter: $medium-blur
+=high-blur
+    filter: $high-blur
+=ex-high-blur
+    filter: $ex-high-blur
