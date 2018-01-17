@@ -1,0 +1,22 @@
+{
+  "name": "project-neon",
+  "version": "1.0.0",
+  "description": "Neon is a dead simple, responsive, CSS3 UI library . No jQuery required.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saddamcrr7/project-neon.git"
+  },
+  "keywords": [
+    "neon"
+  ],
+  "author": "Limon Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saddamcrr7/project-neon/issues"
+  },
+  "homepage": "https://github.com/saddamcrr7/project-neon#readme"
+}
