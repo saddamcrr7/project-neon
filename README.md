@@ -45,3 +45,17 @@ You can set use saven different colors & four different effect
 
 #### `Neon options`
 
+Main | Color | Effect | Class
+------------ | ------------- | ------------- | -------------
+Neon | Standard | Standard | .neon-st-st
+Neon | Standard | Medium | .neon-st-md
+Neon | Standard | High | .neon-st-hi
+Neon | Standard | Extra High | .neon-st-ex-hi
+Neon | Light | Standard | .neon-light-st
+Neon | Light | Medium | .neon-light-md
+Neon | Light | High | .neon-light-hi
+Neon | Light | Extra High | .neon-light-ex-hi
+
+
+## Licence
+Notyf is under [MIT licence](https://opensource.org/licenses/mit-license.php)
