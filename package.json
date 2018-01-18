@@ -1,6 +1,6 @@
 {
   "name": "project-neon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Neon is a dead simple, responsive, CSS3 UI library . No jQuery required.",
   "main": "index.js",
   "scripts": {
