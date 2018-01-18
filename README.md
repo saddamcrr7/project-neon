@@ -1,5 +1,5 @@
 # project-neon
-Neon is a very simple Modern, easy to use CSS based library. Neon made with an awesome variation of CSS3 Filter, Box shadow, Background inherit property that takes neon effect from your background Image. Neon inspired by Microsof Fluent Design concept. 
+Neon is a very simple Modern, easy to use CSS based library. Neon made with an awesome variation of CSS3 Filter, Box shadow, Background inherit property that takes neon effect from your background Image. Neon inspired by Microsoft Fluent Design concept. 
 
 Neon will provide a revolutionary user experience on your website Buttton, Modal, Hover effect, Navigation, Dropdown Menu etc. 
 Neon is an eloquent CSS effect for a complex world.
@@ -70,7 +70,7 @@ Neon | success | Standard | .neon-success-st
 Neon | success | Medium | .neon-success-md
 Neon | success | High | .neon-success-hi
 Neon | success | Extra High | .neon-success-ex-hi
-Neon | warning | warning | .neon-warning-st
+Neon | warning | Standard | .neon-warning-st
 Neon | warning | Medium | .neon-warning-md
 Neon | warning | High | .neon-warning-hi
 Neon | warning | Extra High | .neon-warning-ex-hi
